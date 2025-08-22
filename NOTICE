@@ -1,0 +1,47 @@
+NOTICE
+
+This dataset is derived from the VU Amsterdam Metaphor Corpus (VUAMC).
+
+Original source:
+Steen, Gerard J., Aletta G. Dorst, J. Berenike Herrmann, Anna A. Kaal,
+Tina A. J. Prins, and Gitte Kristiansen. (2010).
+Metaphor in Usage: The VU Amsterdam Metaphor Corpus.
+Amsterdam/Philadelphia: John Benjamins.
+
+The VUAMC itself is based on material from the British National Corpus (BNC).
+
+Available at:
+https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2541?show=full
+
+
+
+BNC Licence:
+Available for non-commercial use on condition that the terms of the BNC Licence
+are observed and that this header is included in its entirety with any copy distributed.
+
+-------------------------------------------------------------------------------
+This repository provides a parsed and reformatted version of the VUAMC dataset.
+The modifications include parsing the XML source, alignment with book appendix
+figures, token-level restructuring, and identification of discrepancies between
+the XML and published counts.
+
+These modifications are released under the
+Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+See: https://creativecommons.org/licenses/by-sa/4.0/
+
+Copyright (c) 2025 [Daban Q. Jaff]
+
+-------------------------------------------------------------------------------
+Attribution:
+If you use this dataset, please cite both the original corpus and this repository.
+
+Original citation:
+Steen, G. J., Dorst, A. G., Herrmann, J. B., Kaal, A. A., Prins, T. A. J.,
+& Kristiansen, G. (2010). Metaphor in Usage: The VU Amsterdam Metaphor Corpus.
+Amsterdam/Philadelphia: John Benjamins.
+
+Derived work citation:
+[Daban Q. Jaff] (2025). VU-Amsterdam-Metaphor-Corpus-Unveiled.
+Available at: [github.com/dabjaff/VU-Amsterdam-Metaphor-Corpus-Unveiled]
+
+-------------------------------------------------------------------------------
