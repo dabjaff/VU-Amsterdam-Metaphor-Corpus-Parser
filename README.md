@@ -70,3 +70,6 @@ pip install pandas lxml
 ## Author
 Developed and maintained as part of ongoing research on metaphor annotation and analysis in the VUAMC at Erfurt Univeristy.
 
+[Daban Q. Jaff] (2025). VU-Amsterdam-Metaphor-Corpus-Unveiled.
+Available at: [github.com/dabjaff/VU-Amsterdam-Metaphor-Corpus-Unveiled]
+
