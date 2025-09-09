@@ -1,4 +1,4 @@
-# VUAMC → ALL.csv Parser
+# VUAMC → VUAMC.csv Parser
 
 This script converts the **VU Amsterdam Metaphor Corpus (VUAMC)** XML file into a flat CSV file (`ALL.csv`). It reproduces the agreed parsing rules precisely, including special handling for the **b1g** file.
 
