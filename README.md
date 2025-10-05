@@ -65,7 +65,7 @@ pip install pandas lxml
 
 ## Notes
 - The script was written for **reproducibility** and mirrors the agreed parsing logic exactly.
-- After running the script, you will be You will be greeted by  `"Daban: Welcome to Vuamc world and enjoy Metaphors!"`.
+
 
 ---
 
