@@ -6,14 +6,16 @@ This script converts the **VU Amsterdam Metaphor Corpus (VUAMC)** XML file into 
 
 ## What it does
 - Parses the VUAMC XML into a structured CSV.
-- Merges multi‑word expressions (MWEs) using `<seg function="mrw">` with `xml:id`/`corresp` references.
+- Merges multi-word expressions (MWEs) using `<seg function="mrw">` with `xml:id`/`corresp` references.
 - Normalizes segmented MWEs (suffixes like `s1`, `s2`, `s3` are collapsed).
 - Applies genre labels based on file ID prefixes.
 - Skips punctuation tokens (`POS == PUN`).
 - Skips truncations marked as `<seg function="trunc">`.
 - **Special case for `b1g`:**
   - Only parses sentences **738–765, 1012, 1299, 1401, and 1485–1584**.
-  - Skips all other b1g sentences and *all* tokens outside `<s>`.
+  - Skips all other `b1g` sentences and *all* tokens outside `<s>`.
+- **News**: Excludes **125** tokens with lemma `of` that are annotated as metaphorical in VUAMC from MRW counts (treated as potential annotation noise).
+
 
 ---
 
