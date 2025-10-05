@@ -72,6 +72,6 @@ pip install pandas lxml
 ## Author
 Developed and maintained as part of ongoing research on metaphor annotation and analysis in the VUAMC at Erfurt Univeristy.
 
-[Daban Q. Jaff] (2025). VU-Amsterdam-Metaphor-Corpus-Unveiled.
+[Daban Q. Jaff] (2025). VU Amsterdam Metaphor Corpus Parser.
 Available at: https://github.com/dabjaff/VU-Amsterdam-Metaphor-Corpus-Parser
 
