@@ -36,17 +36,19 @@ Parsing the XML with a custom parser yields:
 
 ### Register-Level Counts
 
-| Register     | Tokens (Book) | Tokens (Parser) | Δ Tokens | MRWs (Book) | MRWs (Parser) | Δ MRWs | MRW % (Book) | MRW % (Parser) | Δ %   |
-|--------------|---------------|-----------------|----------|-------------|---------------|--------|---------------|----------------|-------|
-| Academic     | 49,314        | 49,711          | +397     | 9,120       | 9,073         | –47    | 18.5%         | 18.3%          | –0.2% |
-| News         | 44,792        | 45,118          | +326     | 7,342       | 7,443         | +101   | 16.4%         | 16.5%          | +0.1% |
-| Fiction      | 44,648        | 44,893          | +245     | 5,293       | 5,255         | –38    | 11.8%         | 11.7%          | –0.1% |
-| Conversation | 47,934        | 48,398          | +464     | 3,687       | 3,676         | –11    | 7.7%          | 7.6%           | –0.1% |
-| **Total**    | **186,688**   | **188,120**     | **+1,432** | **25,442** | **25,447**    | **+5** | **13.6%**     | **13.5%**      | –0.1% |
+| Register     | Tokens (Book) | Tokens (Parser) | Δ Tokens | MRWs (Book) | MRWs (Parser) | Δ MRWs | MRW % (Book) | MRW % (Parser) | MRW Δ    %    |
+|--------------|----------------|-----------------|----------|-------------|---------------|--------|---------------|----------------|-----------------|
+| Academic     | 49,314         | 49,681          | + 367 | 9,120       | 9,073         | –47    | 18.5%         |  18.3%|  - 0.2% |
+| News         | 44,792         | 45,118          | +326     | 7,342       | 7,312         | –30    | 16.4%         | 16.2%          | - 0.2% |
+| Fiction      | 44,648         | 44,893          | +245     | 5,293       | 5,251         | –42    |  11.9% | 11.7%          | - 0.2% |
+| Conversation | 47,934         | 48,398          | +464     | 3,687       | 3,676         | –11    | 7.7%          | 7.6%           | - 0.1% |
+| **Total**    | **186,688**    | **188,090**     | **+1,402** | **25,442** | **25,312** |  **–130** | **13.6%** |  **13.5%** | **- 0.1%** |
 
 ## Inconsistent Numbers
 
-Parsing the untrimmed `b1g-fragment02` yields 20,151 lexical units (vs. 3,006 reported), but only 633 MRWs. The discrepancy arises because unannotated sentences remain in the OTA XML. When trimmed to the authoritative ranges (s738–765, s1012, s1299, s1401, s1485–1584), the count drops to 3,156 lexical units—preserving 633 MRWs and reducing total corpus size closer to the official figure.
+- Parsing the untrimmed `b1g-fragment02` yields 20,151 lexical units (vs. 3,006 reported), but only 633 MRWs. The discrepancy arises because unannotated sentences remain in the OTA XML. When trimmed to the authoritative ranges (s738–765, s1012, s1299, s1401, s1485–1584), the count drops to 3,156 lexical units—preserving 633 MRWs and reducing total corpus size closer to the official figure.
+
+- Metaphorical status of “of”: In the News register, 125 MRWs with lemma = “of” are dropped as potential noise from formulaic constructions.
 
 ## Output File
 
@@ -76,6 +78,4 @@ This permits use, distribution, and adaptation for non-commercial research and e
 ## Author
 Developed and maintained as part of ongoing research on metaphor annotation and analysis in the VUAMC at Erfurt Univeristy.
 
-[Daban Q. Jaff] (2025). VU-Amsterdam-Metaphor-Corpus-Unveiled. Available at: [github.com/dabjaff/VU-Amsterdam-Metaphor-Corpus-Unveiled]
-
-
+[Daban Q. Jaff] (2025). VU Amsterdam Metaphor Corpus Parser. Available at: https://github.com/dabjaff/VU-Amsterdam-Metaphor-Corpus-Parser
